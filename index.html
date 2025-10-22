@@ -8,30 +8,60 @@
 
     <link rel="stylesheet" href="assets/css/general.css">
     <link rel="stylesheet" href="assets/css/home.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
     <div class="container">
         <nav class="nav">
-            <div class="nav-links">
-                <a href="#" class="nav-links__link">
+            <span class="nav-toggler" id="toggler">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-menu-icon lucide-menu">
+                    <path d="M4 5h16" />
+                    <path d="M4 12h16" />
+                    <path d="M4 19h16" />
+                </svg>
+            </span>
+
+            <div class="nav-links" id="links">
+                <a href="#" class="nav-links__link" data-aos="fade-up">
                     Strona główna
                 </a>
-                <a href="#" class="nav-links__link">
+                <a href="#" class="nav-links__link" data-aos="fade-up">
                     O autorach
                 </a>
-                <a href="#" class="nav-links__link">
+                <a href="#" class="nav-links__link" data-aos="fade-up">
                     Kategorie
                 </a>
-                <a href="#" class="nav-links__link">
+                <a href="#" class="nav-links__link" data-aos="fade-up">
                     Aktualności
                 </a>
-                <a href="#" class="nav-links__link">
+                <a href="#" class="nav-links__link" data-aos="fade-up">
                     Kontakt
                 </a>
             </div>
         </nav>
+
+        <header class="header" data-aos="fade-up">
+            <div>
+                <h1 class="title">Gazetka <span class="text-blue">Szkolna</span> Online</h1>
+                <p class="description">Artykuły <span class="text-dark">uczniów</span> o kulturze, sporcie, nauce i
+                    <span class="text-dark">życiu</span> szkoły</p>
+            </div>
+            <div>
+                <img src="assets/img/student.png" alt="">
+            </div>
+        </header>
     </div>
+
+    <script src="assets/js/main.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
