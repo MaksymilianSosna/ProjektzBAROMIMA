@@ -1,0 +1,42 @@
+const categories = [
+  {
+    id: "kultura",
+    name: "Kultura",
+    description: "Recenzje, wydarzenia, wywiady i inspiracje kulturalne.",
+    color: "#7C3AED",
+    icon: "icon-theatre",
+    cover: "images/kategorie/kultura.jpg",
+  },
+  {
+    id: "sport",
+    name: "Sport",
+    description: "Relacje z meczów, wywiady z zawodnikami, porady treningowe.",
+    color: "#10B981",
+    icon: "icon-ball",
+    cover: "images/kategorie/sport.jpg",
+  },
+  {
+    id: "nauka",
+    name: "Nauka",
+    description: "Popularnonaukowe artykuły, doświadczenia, ciekawostki.",
+    color: "#2563EB",
+    icon: "icon-lab",
+    cover: "images/kategorie/nauka.jpg",
+  },
+  {
+    id: "zycie-szkoly",
+    name: "Życie szkoły",
+    description: "Wydarzenia, samorząd, ogłoszenia i projekty uczniowskie.",
+    color: "#F59E0B",
+    icon: "icon-school",
+    cover: "images/kategorie/zycie.jpg",
+  },
+  {
+    id: "opinia",
+    name: "Opinie",
+    description: "Felietony, komentarze i głosy redakcji.",
+    color: "#EF4444",
+    icon: "icon-quote",
+    cover: "images/kategorie/opinia.jpg",
+  },
+];
